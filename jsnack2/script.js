@@ -13,7 +13,7 @@ let sentence = document.getElementById("result");
 if(firstWord.length > secondWord.length) {
     sentence.innerHTML = firstWord;
 }
-else if (secondWord.length < firstWord.length) {
+else if (firstWord.length < secondWord.length) {
     sentence.innerHTML = secondWord;
 };
 // else if (secondWord === firstWord) {

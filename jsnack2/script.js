@@ -11,13 +11,11 @@ const secondWord = prompt("inserisci la seconda parola:");
 let sentence = document.getElementById("result");
 
 if(firstWord.length > secondWord.length) {
-    sentence.innerHTML = firstWord;
+    sentence.innerHTML = secondWord + ' ' + firstWord;
 }
 else if (firstWord.length < secondWord.length) {
-    sentence.innerHTML = secondWord;
+    sentence.innerHTML =  firstWord + ' ' + secondWord;
 };
-// else if (secondWord === firstWord) {
-//     sentence.innerHTML = firstWorld + secondWord;
-// }
+
 
 

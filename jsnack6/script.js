@@ -3,7 +3,7 @@
 // creare un Array
 const list = [];
 
-// ripeto l'operazione fino a creare 50 numeri[arrey]
+// ripeto l'operazione fino a creare 50 numeri[Array]
 while (list.length < 50) {
     
     // generazione numero casuale
@@ -12,14 +12,14 @@ while (list.length < 50) {
     // è presente lo stesso numero?
     let numbers = true;
     
-        // confronto il nuovo numero generato con quelli presenti [arrey] se trovo è già presente cambio il valore 
+        // confronto il nuovo numero generato con quelli presenti [Array] se trovo è già presente cambio il valore 
         for (i = 0; i < list.length; i ++) {
             if (num === list[i]) {
             numbers = false;
             }
         }
     
-    // se il valore non cambia lo aggiungo [arrey]
+    // se il valore non cambia lo aggiungo [Array]
     if (numbers == true) {
         list.push(num);
     }
